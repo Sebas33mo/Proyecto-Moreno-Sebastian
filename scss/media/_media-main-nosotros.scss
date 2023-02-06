@@ -1,0 +1,15 @@
+@media (min-width:768px){
+    .Conocenos{
+        width: 100%;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    .nosotros{
+        display: flex;
+        justify-content: space-evenly;
+        div img{
+            width: 300px;
+        }
+    }
+}

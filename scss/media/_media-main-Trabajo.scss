@@ -1,0 +1,31 @@
+@media (min-width:768px){
+
+    .conteiner{
+        display: none;
+    }
+    .descktop{
+        h2{
+            color: white;
+        }
+        display: grid;
+        gap: 40px;
+
+    }
+    .ContainImg{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        background: rgba(0,0,0,0.4);
+        
+
+    }
+    .imgD{
+        width: 200px;
+        border: solid 2px white;
+        background: rgba(0,0,0,0.4);
+        &hover{ width: 400px;
+        }
+
+    }
+
+}

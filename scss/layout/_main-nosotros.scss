@@ -1,0 +1,32 @@
+.gridConocenos{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows:repeat(2, 1fr) ;
+    grid-template-areas: 
+    "a"
+    "b";
+    width: 100%;
+    text-align: justify;
+    align-content: center;
+
+    .Conocenos{
+        grid-area: a;
+    }
+    .nosotros{
+        grid-area: b;
+        align-items: center;
+        text-align: center;
+    }
+    p{
+        color: white;
+    }
+    h2{
+        text-align: center;
+        color: white;
+    }
+    padding: 10px;
+    font-size: 20px;
+    h3{
+        color: white;
+    }
+}

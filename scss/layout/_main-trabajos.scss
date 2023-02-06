@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    align-content: flex-end;
+}
+.conteiner{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 500px 500px;
+}
+.gridTrabajo{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:auto 500fr;
+    align-items: flex-start;
+    
+}
+.gridTrabajo2{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:auto 500fr;
+    align-items: flex-start;
+    
+    
+}
+.carousel-item{
+    width: 100%;
+    padding: 6px;
+    text-align: center;
+    align-content: center;
+    
+}
+.d-block{
+    margin: 4px 4px 4px 1px;
+    width: 100%px; 
+    border: solid 2px white;
+    border-radius: 100px;
+    align-content: flex-start;
+}
+.descktop{
+    display: none;
+}
+
+
